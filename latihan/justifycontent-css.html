@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .card {
+            display: flex;
+
+        }
+
+        .card-content {
+            width: 40%;
+            border: solid 5px rgb(143, 143, 143);
+            background: #f1f1f1;
+            border-radius: 20px;
+            padding: 1.5rem;
+        }
+
+        .right {
+            justify-content: right;
+        }
+
+        .left {
+            justify-content: left;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+
+        .button {
+            margin: 1rem 2rem;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .flex {
+            display: flex;
+            align-items: center;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        .card-img {
+            width: 8em;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card left">
+            <div class="card-content">
+                <div class="flex">
+                    <div>
+                        <img src="gendung.png" alt="gedung" class="card-img">
+                    </div>
+                    <div>
+                        <h1>Tes</h1>
+                        <h4>Lorem, ipsum dolor.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nihil quas sint ullam a
+                            fugit beatae iusto consequuntur porro, esse blanditiis enim quam, asperiores, veniam quod
+                            autem eos nostrum quia? Obcaecati eaque quos nihil consectetur, unde exercitationem iusto
+                            voluptatum quidem!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card right">
+            <div class="card-content">
+                <div class="flex">
+                    <div>
+                        <h1>Tes</h1>
+                        <h4>Lorem, ipsum dolor.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nihil quas sint ullam a
+                            fugit
+                            nostrum quia? Obcaecati eaque quos nihil consectetur, unde exercitationem iusto voluptatum
+                            beatae iusto consequuntur porro, esse blanditiis enim quam, asperiores, veniam quod autem
+                            eos
+                            quidem!
+                        </p>
+                    </div>
+                    <div>
+                        <img src="gendung.png" alt="gedung" class="card-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <div class="flex">
+                    <div>
+                        <img src="gendung.png" alt="gedung" class="card-img">
+                    </div>
+                    <div>
+                        <h1>Tes</h1>
+                        <h4>Lorem, ipsum dolor.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nihil quas sint ullam a
+                            fugit beatae iusto consequuntur porro, esse blanditiis enim quam, asperiores, veniam quod
+                            autem eos nostrum quia? Obcaecati eaque quos nihil consectetur, unde exercitationem iusto
+                            voluptatum quidem!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <button class="button">Daftar Sekarang!</button>
+        </div>
+    </div>
+</body>
+
+
+</html>
